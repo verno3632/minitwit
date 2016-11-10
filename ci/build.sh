@@ -9,6 +9,6 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE}")/.." && pwd -P)"
 
 cd "${script_dir}"
 
-DOCKER_IMG="${DOCKER_IMG:-karlkfi/minitwit}"
+DOCKER_IMG="${DOCKER_IMG:-verno3632/minitwit}"
 
 docker build -t ${DOCKER_IMG} .
